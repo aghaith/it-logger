@@ -20,8 +20,7 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "concurrently \"set HTTPS=true&&react-scripts --openssl-legacy-provider start\" \"npm run json-server\"",
-    "json-server": "json-server --watch db.json --port 5000",
+    "start": "concurrently \"set HTTPS=true&&react-scripts --openssl-legacy-provider start\" \"json-server --watch db.json --port 5000\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
